@@ -42,7 +42,6 @@ const Contact = () => {
                         <div className="font-medium">{email.address}</div>
                       </div>
                     </div>
-                    {/* link */}
                     <a
                       className="font-medium border-b border-dark pb-[5px]"
                       href="#!"
@@ -54,6 +53,7 @@ const Contact = () => {
               })}
             </div>
           </motion.div>
+          
           <motion.div
             variants={fadeIn('left')}
             initial="hidden"
