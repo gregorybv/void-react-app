@@ -20,6 +20,7 @@ const About = () => {
               01
             </div>
           </motion.div>
+
           <motion.div
             variants={fadeIn('left')}
             initial="hidden"
